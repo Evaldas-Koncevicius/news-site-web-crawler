@@ -25,4 +25,4 @@ How It Works
 
   Progress & Error Management: The script meticulously tracks progress and saves any failed or pending links to separate files, allowing the process to be resumed without losing any data.
 
-  The [output.csv] (https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/output.csv) file included in this repository is a small, clean example of the final, organized data that the script produces.
+  The [output.csv](https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/output.csv) file included in this repository is a small, clean example of the final, organized data that the script produces.

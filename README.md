@@ -17,7 +17,7 @@ A **robust web scraping template** designed to extract and organize key contentâ
 This system operates in a **methodical, step-by-step process** to ensure reliable data extraction:
 
 1. **Link Discovery:**  
-   The system first runs a separate script (`get_links.py`) to intelligently locate and gather all relevant article URLs from a website's sitemap. These links are then saved to a CSV file.
+   The system first runs a separate script ([get_links.py](https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/get_links.py)) to intelligently locate and gather all relevant article URLs from a website's sitemap. These links are then saved to a CSV file.
 
 2. **Link Loading:**  
    The main script ([crawler.py](https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/crawler.py)) reads the list of article URLs from the CSV file.
@@ -35,7 +35,7 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
 
 ## Example Output
 
-The `output.csv` file included in this repository is a **small, clean example** of the final, organized data that the script produces.
+The [output.csv](https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/output.csv) file included in this repository is a **small, clean example** of the final, organized data that the script produces.
 
 ---
 

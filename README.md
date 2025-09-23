@@ -20,7 +20,7 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
    The system first runs a separate script (`get_links.py`) to intelligently locate and gather all relevant article URLs from a website's sitemap. These links are then saved to a CSV file.
 
 2. **Link Loading:**  
-   The main script (`crawler.py`) reads the list of article URLs from the CSV file.
+   The main script ([crawler.py](https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/crawler.py)) reads the list of article URLs from the CSV file.
 
 3. **Page Navigation & Content Extraction:**  
    It navigates to each URL, intelligently locates the main article body, and extracts specific content (headlines, paragraphs, and list items).

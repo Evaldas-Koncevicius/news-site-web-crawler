@@ -72,10 +72,15 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
     pip install -r requirements.txt
     ```
 
-3.  **Run the script:**
+3.  **Run the get_links script:**
     ```sh
-    python main.py
+    python get_links.py
     ```
+
+4.  **Run the crawler script:**
+    ```sh
+    python crawler.py
+    ```    
 ---
 
 ## Example Output

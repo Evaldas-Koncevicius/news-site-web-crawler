@@ -7,7 +7,7 @@ A **robust web scraping template** designed to extract and organize key contentâ
 ## âœ¨ Key Features
 
 - **Modular Design:** Built with a clean, function-based structure for easy readability and maintenance.
-- **Error Handling:** Implements a `try-finally` block to save progress and log failed links, ensuring data is never lost.
+- **Error Handling:** Implements a `try-finally` block to save progress and failed links, ensuring data is not lost.
 - **Customizable:** Easily adaptable for any new website by updating simple variables.
 
 ---

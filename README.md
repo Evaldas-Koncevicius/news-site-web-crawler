@@ -33,6 +33,25 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
 
 ---
 
+## Usage
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/Evaldas-Koncevicius/news-site-web-crawler.git](https://github.com/Evaldas-Koncevicius/news-site-web-crawler.git)
+    cd news-site-web-crawler
+    ```
+
+2.  **Install the required packages:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the script:**
+    ```sh
+    python main.py
+    ```
+---
+
 ## Example Output
 
 The [output.csv](https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/output.csv) file included in this repository is a **small, clean example** of the final, organized data that the script produces.

@@ -4,7 +4,7 @@ A **robust web scraping template** designed to extract and organize key content�
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 - **Modular Design:** Built with a clean, function-based structure for easy readability and maintenance.
 - **Error Handling:** Implements a `try-finally` block to save progress and log failed links, ensuring data is never lost.
@@ -12,7 +12,7 @@ A **robust web scraping template** designed to extract and organize key content�
 
 ---
 
-## How It Works
+## 📖 How It Works
 
 This system operates in a **methodical, step-by-step process** to ensure reliable data extraction:
 
@@ -33,7 +33,14 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
 
 ---
 
-## Setup
+## ⚙️ Requirements  
+- Python **3.8+**  
+- **Google Chrome**  
+- [ChromeDriver](https://chromedriver.chromium.org/) (matching your Chrome version)
+
+---
+
+## 📖 Setup
 
 1. **get_links.py**
    - **Placeholders** (PATH_TO_FILENAME.csv, LINK_TO_BASE_LEVEL_SITEMAP, 'SITEMAP_STRUCTURE_FILTER_TO_GET_RELEVENT_CATEGORIES') need to be adjusted in code.
@@ -61,7 +68,7 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
   
 ---
 
-## Usage
+## 📖 Usage
 
 1.  **Clone the repository:**
     ```sh
@@ -85,7 +92,7 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
     ```    
 ---
 
-## Example Output
+## 📂 Example Output
 
 The [output.csv](https://github.com/Evaldas-Koncevicius/news-site-web-crawler/blob/main/output.csv) file included in this repository is a **small, clean example** of the final, organized data that the script produces.
 

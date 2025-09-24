@@ -33,6 +33,23 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
 
 ---
 
+## Setup
+
+1. get_links.py
+   - Placeholders (PATH_TO_FILENAME.csv, LINK_TO_BASE_LEVEL_SITEMAP, 'SITEMAP_STRUCTURE_FILTER_TO_GET_RELEVENT_CATEGORIES') need to be adjusted in code.
+   - PATH_TO_FILENAME.csv needs to be changed to filename of your choice with .csv at the end.
+   - LINK_TO_BASE_LEVEL_SITEMAP needs to be changed to full link to a sitemap you intend to get links from.
+   - SITEMAP_STRUCTURE_FILTER_TO_GET_RELEVENT_CATEGORIES there are 2 of these both need to be changed to search for categories, or simply any text string starting with your chosen symbols.
+
+2. crawler.py
+   - Placeholders (PATH_TO_FILENAME.csv, PATH_TO_LINKNAME.csv, PATH_TO_FAILEDNAME.csv, ELEMENT_OR_DIV_HOLDING_MAIN_ARTICLE, NAMES_OF_CLASSES, NAMES_OF_ELEMENTS_HOLDING_CONTENT) need to be adjusted in code.
+   - PATH_TO_FILENAME.csv needs to be changed to filename (that will hold gathered data) of your choice with .csv at the end.
+   - PATH_TO_LINKNAME.csv. needs to be changed to filename (that will save pending links and saves uncrawled links in case of crawler not being able to finnish) of your choice with .csv at the end.
+   - PATH_TO_FAILEDNAME.csv needs to be changed to filename (that will save links that failed to be crawled) of your choice with .csv at the end.
+   - ELEMENT_OR_DIV_HOLDING_MAIN_ARTICLE needs to be changed to an ELEMENT that would most accuretly pinpoint main article.
+   - NAMES_OF_CLASSES needs to be changed to a list of names of unwanted classes to be skiped if they clutter data you need.
+   - NAMES_OF_ELEMENTS_HOLDING_CONTENT needs to be changed to most accurate available elements that hold article information. (Most ussualy it will be P, h2, h3, li)
+
 ## Usage
 
 1.  **Clone the repository:**

@@ -56,15 +56,15 @@ This system operates in a **methodical, step-by-step process** to ensure reliabl
      
    - **PATH_TO_FILENAME.csv** needs to be changed to filename (that will hold gathered data) of your choice with .csv at the end.
      
-   - **PATH_TO_LINKNAME.csv** needs to be changed to filename (that will save pending links and saves uncrawled links in case of crawler not being able to finnish) of your choice with .csv at the end.
+   - **PATH_TO_LINKNAME.csv** needs to be changed to filename (that will save pending links and saves uncrawled links in case of crawler not being able to finish) of your choice with .csv at the end.
      
    - **PATH_TO_FAILEDNAME.csv** needs to be changed to filename (that will save links that failed to be crawled) of your choice with .csv at the end.
      
-   - **ELEMENT_OR_DIV_HOLDING_MAIN_ARTICLE** needs to be changed to an ELEMENT that would most accuretly pinpoint main article.
+   - **ELEMENT_OR_DIV_HOLDING_MAIN_ARTICLE** needs to be changed to an ELEMENT that would most accurately pinpoint main article.
      
-   - **NAMES_OF_CLASSES** needs to be changed to a list of names of unwanted classes to be skiped if they clutter data you need.
+   - **NAMES_OF_CLASSES** needs to be changed to a list of names of unwanted classes to be skipped if they clutter data you need.
      
-   - **NAMES_OF_ELEMENTS_HOLDING_CONTENT** needs to be changed to most accurate available elements that hold article information. (Most ussualy it will be P, h2, h3, li)
+   - **NAMES_OF_ELEMENTS_HOLDING_CONTENT** needs to be changed to most accurate available elements that hold article information. (Most usually it will be P, h2, h3, li)
   
 ---
 
